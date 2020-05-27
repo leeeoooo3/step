@@ -7,3 +7,40 @@
 #greeting-container {
   margin-top: 20px;
 }
+
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+/* The .dot represents the class of an tag  */
+.nav{
+    background-color: grey;
+    overflow: hidden;
+
+}
+/* refers to the /a/ tags in the tag that has the class nav*/
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px 18px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*
+.bg{
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    
+    
+}
+*/
