@@ -6,9 +6,12 @@
 
 #greeting-container {
   margin-top: 20px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
+    padding: 10px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,31 +19,38 @@ h1{
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    text-indent: 30px;
+    font-size: 25px;
 
 }
 
-/* The .dot represents the class of an tag  */
-.nav{
-    background-color: grey;
-    overflow: hidden;
 
+
+
+body{
+    background-color: #00c2ff;
 }
-/* refers to the /a/ tags in the tag that has the class nav*/
-.nav a {
-    float: left;
-    color: white;
+#philsophymessage{
     text-align: center;
-    padding: 12px 18px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-radius: 25px;
+    padding: 10px;
 }
 
-
-/*
-.bg{
-    background-image: url("/images/bg.jpg");
-    background-size: cover;
-    
-    
+#welcome{
+    text-align: center;
 }
-*/
+
+#about{
+    text-align: left;
+    border: 1px;
+    border-radius: 25px;
+    border-style: solid;
+    padding: 20px;
+}
+
+#logo{
+    padding: 10px;
+}

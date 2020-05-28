@@ -2,32 +2,53 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Leo's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
   <body>
-    <div class="nav">
-        
-            <a href = "index.html">Home</a>
-            <a href = "about.html"> About </a>
-            <a href = "contact.html"> Contact </a>
-             <a href = "career.html"> Career </a>
-        </div>    
-        
-      <h1>Leo's Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
-      <p>I'm a South Texas resident who currently happens to be a STEP intern. 
-          I'm with the GCloud team that handles the infrastructure of it. 
-          They help out in authintication and providing safe API calls to GCloud.
-           I gathered some of my first experience from a local internship at a
-            Doctor's office. In this experience, I learned about email parsing, SMTP, 
-            IMAP, and python. Currently, I'm not sure what I want my focus to be on, 
-            but one thing is for sure I don't want to do UI/UX</p>
+
+    <div id = "welcome">
+      <h1>Welcome to my Page!</h1>
+    </div>  
+
+
+      <!--<img src= "/images/replace.jpg" alt = "Stock Picture of the View" align = "left"> -->
+    <div id = "about">  
+    <p>My name is Leonardo Ruiz, and I'm currently a rising junior 
+      at the University of Rio Grande Valley. I'm a Computer Science major that loves to play video games,
+      going to the gym, swimming, and paints from time to time.
+    </p>
+    <img src = "/images/utrgv.png" alt = "UTRGV in Ediburg,TX" align = "right" width = "400px" height = "100px">
+    <img src = "/images/gym.jpg" alt = "A picture of the gym" align = "right" width = "400px" height = "250px">
+    </div>
     
+    <h1>Projects that I've worked on</h1>
+    <div id = "about">
+    <p>I've worked on various projects such as DNS Encryptions using Reactsjs and Express. This was done for my Networks class in order to demonstrate our knowledge about encryption. 
+        In a previous internship, I created an email parser that would auto-reply to emails when certain words were sent. Furthermore, I'm also a Teaching Assistant for UTRGV!
+    </p>
+    </div>
+    <img src = "/images/react.png" alt = "Logo of React" align = "right">
+    <img src = "/images/python.png" alt = "Language that the email parser was made in" align = "right">
+    <br>
+    <br>
+
+    <div id = "philsophymessage">
+      <p>Click here to get a random philsophy message:</p>
+      <button onclick="addRandQuote()">Click!</button>
+      <div id="greeting-container"></div>
+    </div>
+
+    <h1>Contact information</h1>
+    <div id = "logo">
+    <img src =  "/images/gh.png" alt = "GitHub logo" align = "left" width= "50px" height= "50px"</div>
+    <div id = "logo">
+    <img src =  "/images/linkedin.png" alt = "LinkedIn logo" align = "left"  width= "50px" height= "50px">
+    </div>
+
+    <h5>Created by Leonardo Ruiz </h5>
+
   </body>
 </html>
 

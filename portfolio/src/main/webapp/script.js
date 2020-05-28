@@ -15,9 +15,16 @@
 /**
  * Adds a random greeting to the page.
  */
-function addRandomGreeting() {
+function addRandQuote() {
   const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+      ['To live is to suffer, to survive is to find some meaning in suffering - Friedrich Nietzsche',
+       'It does not matter how slowly you go as long as you do not stop - Confucius',
+       'Cogito, ergo sum - Rene Descartes',
+       'We are what we repeteadtly do. Exellence, then, is not an act, but a habit - Aristotle',
+       'Happiness is the highest good - Aristotle',
+       'Man is condemned to be free - Jean-Paul Sartre',
+       'The only thing I know is that I know nothing - Socrates'
+       ];
 
   // Pick a random greeting.
   const greeting = greetings[Math.floor(Math.random() * greetings.length)];
