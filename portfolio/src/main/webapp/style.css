@@ -34,6 +34,7 @@ p{
 
 body{
     background-color: #00c2ff;
+    backdrop-filter: blur(10px);
 }
 
 
@@ -60,4 +61,12 @@ h4{
 
 #buttons{
     text-align: center;
+}
+
+.utrgv-logo{
+    padding-right: 200px;
+}
+
+.python-logo{
+    padding-right: 100px;
 }
