@@ -2,17 +2,71 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Leo's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <!--- Linking BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!--- Responsive meta tag for mobile phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
   </head>
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+       <!---Logo's and Welcome Header -->
+       <div class= "jumbotron jumbotron-fluid">
+           <div class="container">
+               <a href = "https://github.com/LeoRuiz01">
+               <img src =  "/images/gh.png" alt = "GitHub logo" align = "right" width= "50px" height= "50px">
+               </a>
+
+            <a href = "https://www.linkedin.com/in/leonardo-ruiz-9a12a0183">
+            <img src =  "/images/linkedin.png" alt = "LinkedIn logo" align = "left"  width= "50px" height= "50px">
+            </a>
+               <h1 class= "display-4"> Welcome to my Portfolio!</h1>
+           </div>
+       </div>
+
+
+    <!---First Paragraph talking about myself and the university I attend -->
+    <div>
+    <img src = "/images/utrgv.png" alt = "UTRGV in Ediburg,TX" width = "400px" height = "100px" align="right" class = "utrgv-logo">
+    <p>My name is Leonardo Ruiz, and I'm currently a rising junior 
+      at the University of Rio Grande Valley. I'm a Computer Science major that loves to play video games,
+      going to the gym, swimming, and paints from time to time.
+    </p>
     </div>
+    
+
+    <!---Talking about projects I've done and added frameworks/languages as pictures for a normal view -->    
+    <h1>Projects that I've worked on</h1>
+    
+    <img src = "/images/react.png" alt = "Logo of React" align = "right" width = "400px" height = "250px" class = "python logo">
+    <img src = "/images/python.png" alt = "Language that the email parser was made in" align = "right" width = "250px" height = "250px">   
+    <p>I've worked on various projects such as DNS Encryption using ReactJs and Express. This was done for my Networks class in order to demonstrate our knowledge about encryption while also learning about the React framework.
+        In a previous internship, I created an email parser that would auto-reply to emails when certain words were sent in by using SMTP and IMAP protocols to communicate with the servers. It was created using python.
+    </p>
+    
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <div id = "buttons">
+    <button onclick="addRandQuote()" class="button">Click me for one of Leo's favorite philosophy quotes!</button>
+    <div id="greeting-container"></div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+
+    <h4>Created by Leonardo Ruiz </h4>
+    
   </body>
 </html>
+
