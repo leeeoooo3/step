@@ -15,58 +15,82 @@
        <!---Logo's and Welcome Header -->
        <div class= "jumbotron jumbotron-fluid">
            <div class="container">
-               <a href = "https://github.com/LeoRuiz01">
-               <img src =  "/images/gh.png" alt = "GitHub logo" align = "right" width= "50px" height= "50px">
-               </a>
-
-            <a href = "https://www.linkedin.com/in/leonardo-ruiz-9a12a0183">
-            <img src =  "/images/linkedin.png" alt = "LinkedIn logo" align = "left"  width= "50px" height= "50px">
-            </a>
-               <h1 class= "display-4"> Welcome to my Portfolio!</h1>
+               <div class = "col-md-12">
+               <h1 class= "display-4">  
+            Welcome to my Portfolio!</h1>
+           </div>
            </div>
        </div>
 
 
     <!---First Paragraph talking about myself and the university I attend -->
-    <div>
-    <img src = "/images/utrgv.png" alt = "UTRGV in Ediburg,TX" width = "400px" height = "100px" align="right" class = "utrgv-logo">
-    <p>My name is Leonardo Ruiz, and I'm currently a rising junior 
+    <h2> About me </h2>
+    <div class = "container">
+        <div class = "col-md-12">
+    <img src = "/images/utrgv.png" alt = "UTRGV in Ediburg,TX" width = "400px" height = "100px" style="float:right" margin-left = "25px">
+    <p class = "text-left">
+    My name is Leonardo Ruiz, and I'm currently a rising junior 
       at the University of Rio Grande Valley. I'm a Computer Science major that loves to play video games,
       going to the gym, swimming, and paints from time to time.
     </p>
     </div>
+    </div>
     
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
     <!---Talking about projects I've done and added frameworks/languages as pictures for a normal view -->    
-    <h1>Projects that I've worked on</h1>
-    
-    <img src = "/images/react.png" alt = "Logo of React" align = "right" width = "400px" height = "250px" class = "python logo">
+    <h2>Work Experience</h2>
+    <div class= "container">
+    <img src = "/images/react.png" alt = "Logo of React" align = "right" width = "400px" height = "250px">
     <img src = "/images/python.png" alt = "Language that the email parser was made in" align = "right" width = "250px" height = "250px">   
     <p>I've worked on various projects such as DNS Encryption using ReactJs and Express. This was done for my Networks class in order to demonstrate our knowledge about encryption while also learning about the React framework.
         In a previous internship, I created an email parser that would auto-reply to emails when certain words were sent in by using SMTP and IMAP protocols to communicate with the servers. It was created using python.
     </p>
-    
+    </div>
+
 
     <br>
     <br>
     <br>
     <br>
     <br>
-    
 
-    <div id = "buttons">
-    <button onclick="addRandQuote()" class="button">Click me for one of Leo's favorite philosophy quotes!</button>
-    <div id="greeting-container"></div>
+    <div class = "container">
+        <div class = "col-md-12">
+        <img src = "/images/oop.png" alt = "OOP demonstration" style = "float:right" width="300px">
+        <p class = "text-left"> I worked as a Teaching Assistant this past semester. I was a TA for Computer Science 1, which covers
+            the fundamentals of programming concepts using C++. This includes Object-Oriented Programming, Inheritence and other OOP concepts.
+            </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class = "text-center">
+    <button onclick="addRandQuote()" class="btn btn-primary">Click me for one of Leo's favorite philosophy quotes!</button>
+    <div id="greeting-container" class = "text-center"></div>
     </div>
 
     <br>
     <br>
     <br>
 
-
-
-    <h4>Created by Leonardo Ruiz </h4>
     
+    <h4 class = "text-center">Created by Leonardo Ruiz </h4>
+    <a href = "https://github.com/LeoRuiz01">
+    <img src =  "/images/gh.png" alt = "GitHub logo" style = "float:right" width= "50px" height= "50px">
+    </a>
+    <a href = "https://www.linkedin.com/in/leonardo-ruiz-9a12a0183">
+    <img src =  "/images/linkedin.png" alt = "LinkedIn logo" style = "flaot:left"  width= "50px" height= "50px">
+    </a>
   </body>
 </html>
 
